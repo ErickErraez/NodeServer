@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "server",
   "version": "1.0.0",
@@ -23,3 +24,29 @@
     "nodemon": "^1.19.1"
   }
 }
+=======
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "api REST node - express - knex - jwt",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./setup/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Alberto Andocilla Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "jwks-rsa": "^1.3.0",
+    "knex": "^0.16.5",
+    "pg": "^7.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
+>>>>>>> 510b9fe58b632057260cdc57788377be63de101e
